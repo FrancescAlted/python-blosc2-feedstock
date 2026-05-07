@@ -45,10 +45,11 @@ requirements:
     - python
     - msgpack-python
     - ndindex
-    - numexpr >=2.12.1
+    - numexpr >=2.14.1
     - numpy >=1.26.0
+    - pydantic
     - requests
-    - platformdirs
+    - threadpoolctl
 
 test:
   imports:
